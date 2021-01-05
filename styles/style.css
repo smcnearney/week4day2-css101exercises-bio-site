@@ -1,0 +1,57 @@
+html {
+    min-height: 100%;
+    background-image: url("https://atlfeed.com/wp-content/uploads/2020/06/ATLfeed_HPBG.jpg");
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(0,0,0,.8);
+    padding: 100px 400px 100px 400px;
+
+    line-height: 1.5em;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+li ::marker {
+    text-align: center;
+}
+
+a {
+    color: #F0ED31;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #F0ED31;
+} 
+
+h1 {
+    font-size: 37px;
+}
+
+p, ul, li {
+    font-family: 'Montserrat', sans-serif;
+    color: #F7F7F7;
+}
+
+.headshot {
+    border-radius: 300px;
+    border: 5px solid;
+    border-color: #F7F7F7;
+    box-shadow: 5px, 10px, #000000;
+    max-width: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+
